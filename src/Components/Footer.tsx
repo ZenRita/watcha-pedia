@@ -6,11 +6,9 @@ const Base = styled.footer`
   box-sizing: border-box;
   width: 100%;
 `;
-
 const Section = styled.section`
   background-color: #1c1d1f
 `;
-
 const Statistics = styled.section`
   display: flex;
   width: 100%;
@@ -20,7 +18,6 @@ const Statistics = styled.section`
   background-color:#101113;
   line-height: 62px;
 `;
-
 const Summary = styled.span`
   color: #d1d1d2;
   font-size: 19px;
@@ -28,34 +25,27 @@ const Summary = styled.span`
   line-height: 22px;
   text-align: center;
 `;
-
 const Emphasis = styled.em`
   color: #ff0558;
   font-size: 19px;
   font-weight: 500;
   line-height: 22px;
 `;
-
 const Container = styled.section`
   background-color: #1c1d1f;
   padding: 20px 0 38px;
 `;
-
 const ContentWrapper = styled.div`
   display: flex;
   margin: 0 60px;
 `;
-
 const Left = styled.div``;
-
 const Right = styled.div``;
-
 const TermAndPolicy = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
 `;
-
 const TermAndPolicyItem = styled.li`
   display: inline-block;
   color: #a5a5a7;

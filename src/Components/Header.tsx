@@ -120,48 +120,46 @@ const Header: React.FC = () => {
     }
 
     return(
-        <header>
-            <Base>
-                <Navigation>
-                    <MenuListWrapper>
-                        <MenuList>
-                            <Menu>
-                                <Link href="/">
-                                    <TextLogo>
-                                        <span className="primary">WATCOUT</span>
-                                        <span>PEDIA</span>
-                                    </TextLogo>
-                                </Link>
-                            </Menu>
-                            <Menu>
-                                <Link href="/">
-                                    <MenuButton>영화</MenuButton>
-                                </Link>
-                                <Link href="/tv">
-                                    <MenuButton>TV프로그램</MenuButton>
-                                </Link>
-                            </Menu>
-                            <SearchMenu>
-                                <SearchContainer>
-                                    <SearchFormWrapper>
-                                        <SearchForm>
-                                            <SearchLabel>
-                                                <AiOutlineSearch />
-                                                <SearchInput placeholder="콘텐츠, 인물, 컬렉션, 유저를 검색해보세요." onChange={handleKeyword}></SearchInput>
-                                            </SearchLabel>
-                                        </SearchForm>
-                                    </SearchFormWrapper>
-                                </SearchContainer>
-                            </SearchMenu>
-                            <Menu>
-                                <SignIn>로그인</SignIn>
-                                <SignUp>회원가입</SignUp>
-                            </Menu>
-                        </MenuList>
-                    </MenuListWrapper>
-                </Navigation>
-            </Base>
-        </header>
+        <Base>
+            <Navigation>
+                <MenuListWrapper>
+                    <MenuList>
+                        <Menu>
+                            <Link href="/">
+                                <TextLogo>
+                                    <span className="primary">WATCOUT</span>
+                                    <span>PEDIA</span>
+                                </TextLogo>
+                            </Link>
+                        </Menu>
+                        <Menu>
+                            <Link href="/">
+                                <MenuButton>영화</MenuButton>
+                            </Link>
+                            <Link href="/tv">
+                                <MenuButton>TV프로그램</MenuButton>
+                            </Link>
+                        </Menu>
+                        <SearchMenu>
+                            <SearchContainer>
+                                <SearchFormWrapper>
+                                    <SearchForm>
+                                        <SearchLabel>
+                                            <AiOutlineSearch />
+                                            <SearchInput placeholder="콘텐츠, 인물, 컬렉션, 유저를 검색해보세요." onChange={handleKeyword}></SearchInput>
+                                        </SearchLabel>
+                                    </SearchForm>
+                                </SearchFormWrapper>
+                            </SearchContainer>
+                        </SearchMenu>
+                        <Menu>
+                            <SignIn>로그인</SignIn>
+                            <SignUp>회원가입</SignUp>
+                        </Menu>
+                    </MenuList>
+                </MenuListWrapper>
+            </Navigation>
+        </Base>
     )
 }
 
